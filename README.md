@@ -40,5 +40,5 @@ VoiceId repository has three python files.
    i.   If PS60k dataset is ready, then run e2e.py code to train and test the proposed end-to-end model.
 
 ### References:
-1. E.   Marchi,   S.   Shum,   K.   Hwang,   S.   Kajarekar,   S.   Sigtia,H. Richards, R. Haynes, Y. Kim, and J. Bridle, “Generalised dis-criminative transform via curriculum learning for speaker recogni-tion,” in 2018 IEEE International Conference on Acoustics, Speechand Signal Processing (ICASSP), April 2018, pp. 5324–5328.
-2. J. weon Jung,  H.-S. Heo,  J. ho Kim,  H. jin Shim,  and H.-J. Yu,“Rawnet:   Advanced  end-to-end  deep  neural  network  using  raw waveforms for text-independent speaker verification,” 2019.
+1. E. Marchi, S. Shum, K. Hwang, S. Kajarekar, S. Sigtia, H. Richards, R. Haynes, Y. Kim, and J. Bridle, “Generalised dis-criminative transform via curriculum learning for speaker recogni-tion,” in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP- 2018)
+2. J. W. Jung, H.-S. Heo, J.-h. Kim, H.-J. Shim, and H.-J. Yu, “RawNet: Advanced end-to-end deep neural network using raw waveforms for text-independent speaker verification,” (INTERSPEECH-2019)
