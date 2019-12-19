@@ -3,7 +3,7 @@
 ### Introduction:
 It is a end-to-end speaker verification system that aims to confirm the identity of a speaker by matching some representation of an incoming test phrase to that of a set of speaker-dependent enrolment phrases. In this project, we first show a baseline LSTM system. We then proposed a end-to-end system that works directly in raw waveforms and doesn't require any pre-processing.
 
-![Baseline LSTM System](images/baseline.jpg?raw=true "Baseline LSTM System")
+![Baseline LSTM System](./images/baseline.jpg?raw=true "Baseline LSTM System")
 
 ![Alt text](relative/path/to/img.jpg?raw=true "Title")
 
