@@ -4,8 +4,16 @@
 It is a end-to-end speaker verification system that aims to confirm the identity of a speaker by matching some representation of an incoming test phrase to that of a set of speaker-dependent enrolment phrases. In this project, we first show a baseline LSTM system proposed in [1]. We then proposed a end-to-end system that works directly in raw waveforms and doesn't require any pre-processing.
 
 ![Baseline LSTM System](images/baseline.JPG) "Baseline LSTM System [1]"
+<figure>
+  <img src="images/baseline.JPG" title="Baseline LSTM System" />
+  <figcaption>Baseline LSTM System</figcaption>
+</figure>
 
 ![Proposed End-to-End System](images/E2E.JPG) "Proposed End-to-End System"
+<figure>
+  <img src="images/E2E.JPG" title="Proposed End-to-End System" />
+  <figcaption>Proposed End-to-End System</figcaption>
+</figure>
 
 ### Dataset:
 In this project, we are introducing a new limited vocabulary spoken commands dataset which we named 'PS60k'. PS60k has total 60K utterances of 'Hey Siri' and 'Hey Portal' combined. We recorded 60 speakers, 20 from each nationality - China, India and the United States of America. Each speaker speaks 20 different utterences (10 Hey Siri utterances, 10 Hey Portal utterances). Theese total 1200 original recordings are merged with 10 different types of noises at 5 SNR (-5, 0, 10, 15, 25) levels. PS60k dataset is available as per request to author. Please contact Piyush Vyas at pi.yush@icloud.com or Darshan Shinde at darshinde7802@gmail.com
