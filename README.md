@@ -1,4 +1,4 @@
-# VoiceID:
+# VoiceID: An End-to-End Text-Independent Speaker Verification System
 
 ### Introduction:
 It is a end-to-end speaker verification system that aims to confirm the identity of a speaker by matching  some representation of an incoming test phrase to that of a set of speaker-dependent enrolment phrases. In this project, we first show a baseline LSTM system. We then proposed a end-to-end system that works directly in raw waveforms and doesn't require any pre-processing.
@@ -24,7 +24,7 @@ VoiceId repository has three python files.
    iii. Download and store it inside the cloned repository at the same level where source code is present.  
    iv.  Generate a new directory by the name of PS60k.  
    v.   Run gen_data.py code to generate the PS60k dataset.   
-2. Train and Test baseline LSTM model:
+2. Train and Test baseline LSTM model:  
    i.   If PS60k dataset is ready, then run baseline.py code to train and test the baseline LSTM model.
-3. Train and Test propose end-to-end model:
+3. Train and Test propose end-to-end model:  
    i.   If PS60k dataset is ready, then run e2e.py code to train and test the proposed end-to-end model.
