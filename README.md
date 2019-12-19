@@ -29,11 +29,11 @@ VoiceId repository has three python files.
 
 ### How to run:
 1. Generate data:  
-   i.   Clone VoiceId reposity.  
+   i.   Clone VoiceID reposity.  
    ii.  Request original dataset from the author.    
-   iii. Download and store it inside the cloned repository at the same level where source code is present.  
-   iv.  Generate a new directory by the name of PS60k.  
-   v.   Run gen_data.py code to generate the PS60k dataset.   
+   iii. Download and store thre dataset inside the cloned repository at the same level where source code is present.  
+   iv.  Make a new directory by the name of PS60k.  
+   v.   Run gen_data.py to generate the PS60k dataset.   
 2. Train and Test baseline LSTM model:  
    i.   If PS60k dataset is ready, then run baseline.py code to train and test the baseline LSTM model.
 3. Train and Test propose end-to-end model:  
