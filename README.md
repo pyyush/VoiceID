@@ -13,9 +13,9 @@ VoiceId repository has three python files.
 3. e2e.py: This file contains the complete source code for proposed end-to-end system, training and testing the end-to-end model.
 
 ### Basic requirements:
-To run this model, you will need python 3.7.4 version installed on your system.
-The uploaded code requires python libraries like librosa, libsndfile, audioread, sklearn, pytorch-1.3.0, cuda-10.1, numpy, etc. installed in your python environment.
-To train the model, you will at least 16GB GPU memory. The written code supports multi-GPU training, but all GPUs should be on same node. 
+1. To run this model, you will need python 3.7.4 version installed on your system.
+2. The uploaded code requires python libraries like librosa, libsndfile, audioread, sklearn, pytorch-1.3.0, cuda-10.1, numpy, etc. installed in your python environment.
+3. To train the model, you will at least 16GB GPU memory. The written code supports multi-GPU training, but all GPUs should be on same node. 
 
 ### How to run:
 1. Generate data:
@@ -24,7 +24,7 @@ To train the model, you will at least 16GB GPU memory. The written code supports
    iii. Download and store it inside the cloned repository at the same level where source code is present.
    iv.  Generate a new directory by the name of PS60k.
    v.   Run gen_data.py code to generate the PS60k dataset. 
-2. Train and test baseline LSTM model:
+2. Train and Test baseline LSTM model:
    i.   If PS60k dataset is ready, then run baseline.py code to train and test the baseline LSTM model.
-3. Train and test propose end-to-end model:
+3. Train and Test propose end-to-end model:
    i.   If PS60k dataset is ready, then run e2e.py code to train and test the proposed end-to-end model.
