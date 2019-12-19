@@ -1,10 +1,14 @@
 # VoiceID: An End-to-End Text-Independent Speaker Verification System
 
 ### Introduction:
-It is a end-to-end speaker verification system that aims to confirm the identity of a speaker by matching  some representation of an incoming test phrase to that of a set of speaker-dependent enrolment phrases. In this project, we first show a baseline LSTM system. We then proposed a end-to-end system that works directly in raw waveforms and doesn't require any pre-processing.
+It is a end-to-end speaker verification system that aims to confirm the identity of a speaker by matching some representation of an incoming test phrase to that of a set of speaker-dependent enrolment phrases. In this project, we first show a baseline LSTM system. We then proposed a end-to-end system that works directly in raw waveforms and doesn't require any pre-processing.
+
+![Baseline LSTM System](images/baseline.jpg?raw=true "Baseline LSTM System")
+
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
 
 ### Dataset:
-In this project, we are introducing a new keyword (Hey Siri, Hey Portal) specific dataset which we are reffered to as 'PS60k'. PS60k has total 60,000 sample utterences. We have recorded 60 speakers, 20 of each from 3 nationalities mainly China, India and the USA. Each speaker speaks 20 different utterences (10 Hey Siri utterances, 10 Hey Portal utterances). Theese total 1200 original recordings are merged with 10 different types of noises at 5 SNR (-5, 0, 10, 15, 25) levels. PS60k dataset is available as per request to author. Please contact Piyush Vyas at pi.yush@icloud.com or Darshan Shinde at darshinde7802@gmail.com
+In this project, we are introducing a new limited vocabulary spoken commands dataset which we named 'PS60k'. PS60k has total 60K utterances of 'Hey Siri' and 'Hey Portal' combined. We recorded 60 speakers, 20 from each nationality - China, India and the United States of America. Each speaker speaks 20 different utterences (10 Hey Siri utterances, 10 Hey Portal utterances). Theese total 1200 original recordings are merged with 10 different types of noises at 5 SNR (-5, 0, 10, 15, 25) levels. PS60k dataset is available as per request to author. Please contact Piyush Vyas at pi.yush@icloud.com or Darshan Shinde at darshinde7802@gmail.com
 
 ### Code distribution:
 VoiceId repository has three python files. 
