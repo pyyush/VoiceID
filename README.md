@@ -41,3 +41,4 @@ VoiceId repository has three python files.
 
 ### References:
 1. E.   Marchi,   S.   Shum,   K.   Hwang,   S.   Kajarekar,   S.   Sigtia,H. Richards, R. Haynes, Y. Kim, and J. Bridle, “Generalised dis-criminative transform via curriculum learning for speaker recogni-tion,” in 2018 IEEE International Conference on Acoustics, Speechand Signal Processing (ICASSP), April 2018, pp. 5324–5328.
+2. J. weon Jung,  H.-S. Heo,  J. ho Kim,  H. jin Shim,  and H.-J. Yu,“Rawnet:   Advanced  end-to-end  deep  neural  network  using  raw waveforms for text-independent speaker verification,” 2019.
