@@ -3,13 +3,11 @@
 ### Introduction:
 It is a end-to-end speaker verification system that aims to confirm the identity of a speaker by matching some representation of an incoming test phrase to that of a set of speaker-dependent enrolment phrases. In this project, we first show a baseline LSTM system proposed in [1]. We then proposed a end-to-end system that works directly in raw waveforms and doesn't require any pre-processing.
 
-![Baseline LSTM System](images/baseline.JPG) "Baseline LSTM System [1]"
 <figure>
-  <img src="images/baseline.JPG" title="Baseline LSTM System" />
-  <figcaption>Baseline LSTM System</figcaption>
+  <img src="images/baseline.JPG" title="Baseline LSTM System [1]" />
+  <figcaption>Baseline LSTM System [1]</figcaption>
 </figure>
 
-![Proposed End-to-End System](images/E2E.JPG) "Proposed End-to-End System"
 <figure>
   <img src="images/E2E.JPG" title="Proposed End-to-End System" />
   <figcaption>Proposed End-to-End System</figcaption>
@@ -40,3 +38,6 @@ VoiceId repository has three python files.
    i.   If PS60k dataset is ready, then run baseline.py code to train and test the baseline LSTM model.
 3. Train and Test propose end-to-end model:  
    i.   If PS60k dataset is ready, then run e2e.py code to train and test the proposed end-to-end model.
+
+### References:
+1. E.   Marchi,   S.   Shum,   K.   Hwang,   S.   Kajarekar,   S.   Sigtia,H. Richards, R. Haynes, Y. Kim, and J. Bridle, “Generalised dis-criminative transform via curriculum learning for speaker recogni-tion,” in2018 IEEE International Conference on Acoustics, Speechand Signal Processing (ICASSP), April 2018, pp. 5324–5328.
