@@ -5,7 +5,7 @@ It is a end-to-end speaker verification system that aims to confirm the identity
 
 <figure>
   <img src="images/baseline.JPG" title="Baseline LSTM System [1]" />
-  <figcaption>Baseline LSTM System [1]</figcaption>
+  <figcaption><center>Baseline LSTM System [1]</center></figcaption>
 </figure>
 
 <figure>
