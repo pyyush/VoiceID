@@ -146,7 +146,7 @@ def train(model, trainData, testData, optimizer, criterion):
         model.train()
         data, target = data.cuda(), target.long().cuda()
         optimizer.zero_grad()
-        output = model(data.unsqueeze_(1))
+        output = model(data)
         loss = criterion(output, target)
         pred = output.argmax(dim=1, keepdim=True)
         correct += pred.eq(target.view_as(pred)).sum().item()
@@ -161,7 +161,7 @@ def test(model, data_, target_):
     model.eval()
     with torch.no_grad():
         data_, target_ = data_.cuda(), target_.long().cuda()
-        output_ = model(data_.unsqueeze_(1))
+        output_ = model(data_)
         pred_ = output_.argmax(dim=1)
         if target_ != pred_:
             return 1
