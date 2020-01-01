@@ -31,7 +31,7 @@ VoiceId repository has three python files.
 1. Generate data:  
    i.   Clone VoiceID reposity.  
    ii.  Request original dataset from the author.    
-   iii. Download and store thre dataset inside the cloned repository at the same level where source code is present.  
+   iii. Download and store the dataset inside the cloned repository at the same level where source code is present.  
    iv.  Make a new directory by the name of PS60k.  
    v.   Run gen_data.py to generate the PS60k dataset.   
 2. Train and Test baseline LSTM model:  
