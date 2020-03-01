@@ -8,7 +8,7 @@ It is an end-to-end speaker verification system that aims to confirm the identit
   <img src="images/baseline.JPG"/>
 </figure>
 
-##### Proposed end-to-end architecture:
+##### End-to-End architecture:
 <figure>
   <img src="images/E2E.JPG" />
 </figure>
