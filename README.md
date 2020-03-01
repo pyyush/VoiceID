@@ -14,7 +14,7 @@ It is an end-to-end speaker verification system that aims to confirm the identit
 </figure>
 
 ### Dataset:
-In this project, we are introducing a new limited vocabulary spoken commands dataset which we named 'PS60k'. PS60k has total 60K utterances of 'Hey Siri' and 'Hey Portal' combined. We recorded 60 speakers, 20 from each nationality - China, India and the United States of America. Each speaker speaks 20 different utterences (10 Hey Siri utterances, 10 Hey Portal utterances). Theese total 1200 original recordings are merged with 10 different types of noises at 5 SNR (-5, 0, 10, 15, 25) levels. PS60k dataset is available on request. To request to the dataset please contact Piyush Vyas at pi.yush@icloud.com or Darshan Shinde at darshinde7802@gmail.com
+In this project, we are introducing a new limited vocabulary spoken commands dataset which we named 'PS60k'. PS60k has total 60K utterances of 'Hey Siri' and 'Hey Portal' combined. We recorded 60 speakers, 20 from each nationality - China, India and the United States of America. Each speaker speaks 20 different utterences (10 Hey Siri utterances, 10 Hey Portal utterances). These total 1200 original recordings are merged with 10 different types of noises at 5 SNR (-5, 0, 10, 15, 25) levels. PS60k dataset is available on request. To request to the dataset please contact Piyush Vyas at pi.yush@icloud.com or Darshan Shinde at darshinde7802@gmail.com
 
 ### Code distribution:
 VoiceId repository has three python files. 
