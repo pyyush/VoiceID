@@ -25,7 +25,7 @@ VoiceId repository has three python files.
 ### Basic requirements:
 1. To run this model, you will need python 3.7.4 version installed on your system.
 2. The uploaded code requires python libraries like librosa, libsndfile, audioread, sklearn, pytorch-1.3.0, cuda-10.1, numpy, etc. installed in your python environment.
-3. To train the model, you will at least 16GB GPU memory. The written code supports multi-GPU training, but all GPUs should be on same node. 
+3. To train the model, you will need at least 16GB GPU memory. The written code supports multi-GPU training, but all GPUs should be on same node. 
 
 ### How to run:
 1. Generate data:  
@@ -40,5 +40,5 @@ VoiceId repository has three python files.
    i.   If PS60k dataset is ready, then run e2e.py code to train and test the proposed end-to-end model.
 
 ### References:
-1. E. Marchi, S. Shum, K. Hwang, S. Kajarekar, S. Sigtia, H. Richards, R. Haynes, Y. Kim, and J. Bridle, “Generalised dis-criminative transform via curriculum learning for speaker recogni-tion,” in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP- 2018)
+1. E. Marchi, S. Shum, K. Hwang, S. Kajarekar, S. Sigtia, H. Richards, R. Haynes, Y. Kim, and J. Bridle, “Generalised dis-criminative transform via curriculum learning for speaker recognition,” in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP- 2018)
 2. J. W. Jung, H.-S. Heo, J.-h. Kim, H.-J. Shim, and H.-J. Yu, “RawNet: Advanced end-to-end deep neural network using raw waveforms for text-independent speaker verification,” (INTERSPEECH-2019)
