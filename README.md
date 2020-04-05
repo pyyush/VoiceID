@@ -1,7 +1,7 @@
 # VoiceID: An End-to-End Text-Independent Speaker Verification
 
 ### Introduction:
-It is an end-to-end speaker verification system that aims to confirm the identity of a speaker by matching some representation of an incoming test phrase to that of a set of speaker-dependent enrolment phrases. In this project, we first show an LSTM baseline system proposed in [1]. We then proposed an end-to-end system that works directly on raw waveforms and doesn't require any feature engineering or pre-processing of data.
+It is an end-to-end speaker verification system that aims to confirm the identity of a speaker by matching some representation of an incoming test phrase to that of a set of speaker-dependent enrollment phrases. In this project, we first show an LSTM baseline system proposed in [1]. We then proposed an end-to-end system that works directly on raw waveforms and doesn't require any feature engineering or pre-processing of data.
 
 ##### LSTM baseline architecture:
 <figure>
